@@ -1,4 +1,4 @@
-const APP_ID ="1f4103807ad54196809758a31bbbf6ea"
+const APP_ID =""
 let uid=sessionStorage.getItem('uid')
 if(!uid){
     //creating a uid if not present currectly to identify users
@@ -7,7 +7,7 @@ if(!uid){
 }
 let token = null;
 let client;
-
+//1f4103807ad54196809758a31bbbf6ea
 ///messagin feature using rtm sdk
 let rtmClient;
 let channel;
